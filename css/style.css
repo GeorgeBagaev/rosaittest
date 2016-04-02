@@ -1,0 +1,127 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
+@font-face {
+  src: url('../fonts/glyphicons-halflings-regular.woff2');
+}
+.header-001{
+	padding: 0;
+
+}
+.phone {
+	color: #e42535;
+	font-size: 13px;
+	margin: 4px 3px 0 0;
+}
+.point{
+	color: #e42535;
+	font-size: 13px;
+	margin: 4px 3px 0 0;
+}
+.logo-title{
+	font-size: 28px;
+	text-decoration: none;
+	color: #fff;
+	position: relative;
+	padding-left: 50px;
+}
+.logo-title:before{
+	position: absolute;
+	content: "";
+	background-image: url(../img/logo.png);
+	width: 40px;
+	height: 40px;
+	left: 0;
+}
+.logo-title:hover{
+	text-decoration: none;
+	color: #fff;
+}
+.logo-title span{
+	font-weight: lighter;
+}
+.menu-001{
+	background: #1b365b;
+	padding: 8px 0 0px;
+}
+.menu-001 .dropdown span{
+	font-size: 20px;
+	border: 3px solid #fff;
+	border-radius: 4px;
+	padding: 4px 4px 6px 6px;
+	color: #fff;
+}
+.menu-001 .dropdown span:hover{
+	color: #64b4f9;
+	border: 3px solid #64b4f9;
+}
+.menu-001 ul{
+	left: -50px;
+}
+.menu-001 .navbar{
+	margin-bottom: 0;
+}
+.gallery-001 .row{
+	position: relative;
+}
+.decor-line:before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 4px;
+	background-color:#da324c;
+	top: -21px;
+	left: 0;
+	margin: 0 1px;
+}
+.gallery-001 h1{
+	color: #074cb1;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.gallery-001 img{
+	margin-bottom: 9px;
+}
+.gallery-001 a{
+	height: 95%;
+}
+
+main .btn-lg{
+	background-color: #1c54ab;
+	width: 100%;
+}
+.nav-pills i{
+	font-size: 10px;
+}
+.dropdown-list-item{
+	padding-left: 10px;
+	text-decoration: none;
+	color: #fff !important;
+}
+.dropdown-list-item:hover{
+	color: #1c54ab;
+	background-color: #1b365b;
+}
+.nav-pills a{
+	color: #fff;
+	cursor: pointer;
+}
+.dropdown-sm{
+	background-color: #1b365b;
+}
+.gallery-001 .col-sm-12 img{
+	height: 200px;
+}
+.address{
+	min-width: 365px;
+}
+/*-----sm------*/
+@media (min-width: 767px){
+	.gallery-001 .col-sm-4{
+	padding: 0 5px;
+}
+}
+
+
+
